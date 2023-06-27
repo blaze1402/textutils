@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   return (
@@ -7,7 +8,7 @@ export default function Navbar(props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
-            <a href="/" className="flex-shrink-0 flex items-center">
+            <Link to="/" className="flex-shrink-0 flex items-center">
               <svg
                 className="h-8 w-8 text-white"
                 viewBox="0 0 24 24"
@@ -24,21 +25,27 @@ export default function Navbar(props) {
               <span className="text-white text-lg font-bold ml-2">
                 TextUtils
               </span>
-            </a>
+            </Link>
           </div>
           <div className="flex items-center">
-            <a
-              href="/about"
+            <Link
+              to="/"
+              className="text-white hover:bg-green-600 dark:hover:bg-slate-700 px-3 py-2 rounded-md text-base font-semibold"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
               className="text-white hover:bg-green-600 dark:hover:bg-slate-700 px-3 py-2 rounded-md text-base font-semibold"
             >
               About
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="text-white hover:bg-green-600 dark:hover:bg-slate-700 px-3 py-2 rounded-md text-base font-semibold"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </div>

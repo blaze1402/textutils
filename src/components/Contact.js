@@ -1,9 +1,9 @@
 import React from "react";
 
 const ContactPage = () => {
-    let thanx=()=>{
-        window.alert("Thank you for contacting us.")
-    }
+  let thanx = () => {
+    window.alert("Thank you for contacting us.");
+  };
 
   return (
     <div className="bg-white dark:bg-gray-700 pt-5 pb-12 px-4 sm:px-6 lg:px-8">

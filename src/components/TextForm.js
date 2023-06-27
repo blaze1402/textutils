@@ -56,7 +56,7 @@ const TextForm = () => {
 
   let emptyText = text === "" ? 0 : text.trim().split(/\s+/).length;
 
-  const handleCopyText = () =>{
+  const handleCopyText = () => {
     let text = document.getElementById("textArea");
     navigator.clipboard.writeText(text.value);
   };
