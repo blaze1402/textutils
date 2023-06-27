@@ -6,16 +6,21 @@ const ContactPage = () => {
     }
 
   return (
-    <div className="bg-white pt-5 pb-10 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white dark:bg-gray-700 pt-5 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-        <p className="text-gray-700 mb-6">
+        <h1 className="text-3xl font-bold mb-4  dark:text-yellow-50">
+          Contact Us
+        </h1>
+        <p className="text-gray-700 dark:text-yellow-50 mb-6">
           We would love to hear from you! Please use the form below to get in
           touch with us.
         </p>
         <form>
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 mb-2">
+            <label
+              htmlFor="name"
+              className="block text-gray-700 dark:text-yellow-50 mb-2"
+            >
               Name:
             </label>
             <input
@@ -27,7 +32,10 @@ const ContactPage = () => {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-gray-700 mb-2">
+            <label
+              htmlFor="email"
+              className="block text-gray-700 dark:text-yellow-50 mb-2"
+            >
               Email:
             </label>
             <input
@@ -39,7 +47,10 @@ const ContactPage = () => {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-gray-700 mb-2">
+            <label
+              htmlFor="message"
+              className="block text-gray-700 dark:text-yellow-50 mb-2"
+            >
               Message:
             </label>
             <textarea

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function Navbar(props) {
   return (
-    <nav className="bg-green-500">
+    <nav className="bg-green-500 dark:bg-gray-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
@@ -29,13 +29,13 @@ export default function Navbar(props) {
           <div className="flex items-center">
             <a
               href="/about"
-              className="text-white hover:bg-green-600 px-3 py-2 rounded-md text-base font-semibold"
+              className="text-white hover:bg-green-600 dark:hover:bg-slate-700 px-3 py-2 rounded-md text-base font-semibold"
             >
               About
             </a>
             <a
               href="/contact"
-              className="text-white hover:bg-green-600 px-3 py-2 rounded-md text-base font-semibold"
+              className="text-white hover:bg-green-600 dark:hover:bg-slate-700 px-3 py-2 rounded-md text-base font-semibold"
             >
               Contact
             </a>

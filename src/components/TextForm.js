@@ -62,17 +62,17 @@ const TextForm = () => {
   };
 
   return (
-    <div className="mx-56 my-2">
+    <div className="px-56 pt-2 pb-14 dark:bg-slate-700">
       <label
         htmlFor="textArea"
-        className="block text-lg font-medium text-gray-700"
+        className="block text-lg font-medium text-gray-700 dark:text-yellow-50"
       >
         Enter the text to be analyzed:
       </label>
       <textarea
         id="textArea"
         className="w-full p-2 mt-2 mb-4 border border-gray-300 rounded-md"
-        rows="5"
+        rows="12"
         value={text}
         onChange={handleTextChange}
       ></textarea>
@@ -135,7 +135,7 @@ const TextForm = () => {
         </button>
       </div>
 
-      <div className="flex mt-5">
+      <div className="flex mt-5 dark:text-yellow-50">
         <h3 className="text-lg font-semibold">Text Summary:</h3>
         <p className="mt-1 ml-3">
           {emptyText} words | {text.length} characters

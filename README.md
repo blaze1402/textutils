@@ -11,6 +11,7 @@ TextUtils is a web application that provides various text utility functions. It 
 - Reverse the characters in the given text.
 - Remove extra whitespace between words.
 
+
 ## Technologies Used
 
 - React: JavaScript library for building user interfaces.
@@ -47,6 +48,7 @@ npm run start
 
 - Enter the desired text in the text area.
 - Use the buttons to perform different text utility functions.
+- Toggle dark mode by clicking on the "Toggle Dark Mode" button.
 
 ## Contributing
 

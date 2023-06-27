@@ -2,16 +2,18 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="bg-white pt-2 pb-10 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white dark:bg-gray-700 pt-2 pb-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4">About TextUtils</h1>
-        <p className="text-gray-700 mb-6">
+        <h1 className="text-3xl font-bold mb-2 dark:text-yellow-50">
+          About TextUtils
+        </h1>
+        <p className="text-gray-700 dark:text-yellow-50 mb-4">
           TextUtils is a web application designed to provide various text
           utility functions. It offers a range of features to help users
           manipulate and analyze text in a convenient and efficient way.
         </p>
-        <h2 className="text-xl font-bold mb-2">Features</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
+        <h2 className="text-xl font-bold mb-2 dark:text-yellow-50">Features</h2>
+        <ul className="list-disc list-inside text-gray-700 dark:text-yellow-50 mb-4">
           <li>
             Text Conversion: Easily convert text to uppercase or lowercase as
             needed.
@@ -28,9 +30,16 @@ const AboutPage = () => {
             Whitespace Removal: Effortlessly remove extra whitespace between
             words, ensuring clean and consistent text formatting.
           </li>
+          <li>
+            Dark Mode: Enjoy a visually pleasing experience with the dark mode
+            feature, which provides a comfortable viewing environment in
+            low-light conditions.
+          </li>
         </ul>
-        <h2 className="text-xl font-bold mb-2">Technology Stack</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
+        <h2 className="text-xl font-bold mb-2 dark:text-yellow-50">
+          Technology Stack
+        </h2>
+        <ul className="list-disc list-inside text-gray-700 dark:text-yellow-50 mb-2">
           <li>React: A JavaScript library for building user interfaces.</li>
           <li>
             Tailwind CSS: A utility-first CSS framework for efficient and
@@ -44,11 +53,11 @@ const AboutPage = () => {
             application.
           </li>
         </ul>
-        <p className="text-gray-700">
+        <p className="text-gray-700 dark:text-yellow-50">
           For more information and to contribute to the project, please visit
           the{" "}
           <a
-            className="underline text-blue-600"
+            className="underline text-blue-500 font-medium"
             href="https://github.com/blaze1402/textutils"
           >
             TextUtils
@@ -56,7 +65,7 @@ const AboutPage = () => {
           GitHub repository.
         </p>
       </div>
-      <p className="fixed w-full bottom-0 pl-[40%] font-bold">
+      <p className="fixed w-full bottom-0 pl-[40%] font-bold dark:text-yellow-50">
         Copyright 2023{" "}
         <a className="text-green-600" href="https://github.com/blaze1402">
           Vijay Kumar Singh ❤
