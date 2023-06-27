@@ -1,4 +1,6 @@
 import "./App.css";
+import About from "./components/About";
+import ContactPage from "./components/Contact";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 
@@ -7,7 +9,9 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" about="About"/>
-      <TextForm />
+      <TextForm />  
+      {/* <About /> */}
+      {/* <ContactPage /> */}
     </>
   );
 }

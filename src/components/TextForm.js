@@ -56,6 +56,11 @@ const TextForm = () => {
 
   let emptyText = text === "" ? 0 : text.trim().split(/\s+/).length;
 
+  const handleCopyText = () =>{
+    let text = document.getElementById("textArea");
+    navigator.clipboard.writeText(text.value);
+  };
+
   return (
     <div className="mx-56 my-2">
       <label
@@ -120,6 +125,13 @@ const TextForm = () => {
           onClick={replaceText}
         >
           Replace Text
+        </button>
+
+        <button
+          className="bg-green-500 text-white mr-2 px-4 py-2 rounded-md hover:bg-green-600"
+          onClick={handleCopyText}
+        >
+          Copy Text
         </button>
       </div>
 
