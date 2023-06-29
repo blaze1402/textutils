@@ -6,7 +6,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-700 pt-5 pb-12 px-4 sm:px-6 lg:px-8">
+    <div className="h-screen bg-white dark:bg-gray-700 py-5 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-4  dark:text-yellow-50">
           Contact Us

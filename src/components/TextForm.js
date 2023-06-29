@@ -62,7 +62,8 @@ const TextForm = () => {
   };
 
   return (
-    <div className="px-56 pt-2 pb-14 dark:bg-slate-700">
+    <div className="h-screen px-56 py-2 dark:bg-slate-700">
+      <h1 className="absolute left-5 bg-white lg:hidden">This website is specifically built for Desktop or larger screen sizes and is not optimized for smaller screens</h1>
       <label
         htmlFor="textArea"
         className="block text-lg font-medium text-gray-700 dark:text-yellow-50"
