@@ -78,9 +78,9 @@ const TextForm = () => {
         onChange={handleTextChange}
       ></textarea>
 
-      <div className="">
+      <div className="space-y-2">
         <button
-          className="bg-red-600 hover:bg-red-700 text-white mr-2 mb-2 px-4 py-2 rounded-md"
+          className="bg-red-600 hover:bg-red-700 text-white mr-2 px-4 py-2 rounded-md"
           onClick={handleClearText}
         >
           Clear Text
