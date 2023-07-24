@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="h-screen bg-white dark:bg-gray-700 py-2 px-4 sm:px-6 lg:px-8">
+    <div className="h-full flex flex-col justify-between gap-4 bg-white dark:bg-gray-700 pt-20 py-2 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-2 dark:text-yellow-50">
           About TextUtils
@@ -65,7 +65,7 @@ const AboutPage = () => {
           GitHub repository.
         </p>
       </div>
-      <p className="fixed w-full bottom-0 pl-[40%] font-bold dark:text-yellow-50">
+      <p className="flex justify-center gap-2 font-bold dark:text-yellow-50">
         &#169; 2023{" "}
         <a className="text-green-600" href="https://github.com/blaze1402">
           Vijay Kumar Singh ❤
